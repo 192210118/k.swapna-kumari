@@ -1,0 +1,14 @@
+#include <stdio.h>
+void main ()
+ {
+   int cric[4][2];
+   int i, j;
+   for (i=0;i<5;i++)
+   {
+      printf("\n Enter rank and points for 5 teams:");
+      scanf("%d %d", &cric[i][0], &cric[i][1]);
+   }
+   for(i=0;i<5;i++)
+      printf("\n%d %d", cric[i][0],cric[i][1]);
+    getch();
+}
