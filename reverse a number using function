@@ -1,0 +1,18 @@
+#include<stdio.h>
+void reverse_number();
+int main()
+{
+	printf("enter a number:");
+	rev_number();
+	return 0;
+}
+ void reverse_number()
+ {
+ 	int c;
+ 	scanf("%d",&c);
+ 	if(c!='\n')
+ 	{
+ 		reverse_number();
+ 		pintf("%d",c);
+	 }
+ }
