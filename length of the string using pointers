@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	char *text = "saveetha";
+	int length;
+	char *p = text;
+
+	while(*p != '\0') 
+	{
+		printf("The address of %c is at %p\n", *p, p);
+		p++;
+	}
+	length = p - text;
+	printf("Length of the string '%s' is %d", text, length);
+
+	return 0;
+}
